@@ -209,6 +209,10 @@
 		max-width: 46%;
 		opacity: 0.5;
 	}
+	.contact_col
+    {
+        margin-top: 80px;
+    }
 }
 
 /************
@@ -244,6 +248,10 @@
 
 @media only screen and (max-width: 767px)
 {
+    .home_title
+    {
+        font-size: 56px;
+    }
 	.featured_album_image
 	{
 		width: 100%;
@@ -302,6 +310,7 @@
 	}
 	.home
 	{
+	    height: 345px;
 		padding-left: 15px;
 		padding-right: 15px;
 	}
@@ -314,6 +323,14 @@
 	{
 		left: 15px;
 	}
+	.home_container
+	{
+	    bottom: 71px;
+	}
+	.home_title
+	{
+	    font-size: 36px;
+	}
 	.log_reg
 	{
 		display: none;
@@ -322,6 +339,10 @@
 	{
 		display: block;
 	}
+	.contact_title
+    {
+        font-size: 30px;
+    }
 	.featured_album_artist
 	{
 		font-size: 22px;
