@@ -348,11 +348,11 @@ section
 .log_reg ul li:not(:last-child)::after
 {
 	display: inline-block;
-	content: '/';
+	content: ' ';
 	font-size: 14px;
 	color: #FFFFFF;
 	margin-left: 6px;
-	margin-right: 6px;
+	margin-right: 56px;
 }
 .log_reg ul li a
 {
@@ -535,11 +535,11 @@ section
 .menu_log_reg ul li:not(:last-child)::after
 {
 	display: inline-block;
-	content: '/';
+	content: ' ';
 	font-size: 14px;
 	color: #FFFFFF;
 	margin-left: 6px;
-	margin-right: 6px;
+	margin-right: 56px;
 }
 .menu_nav
 {
