@@ -353,11 +353,11 @@
 				<div class="col-lg-12">
 					<div class="contact_form_container">
 						<div class="contact_title">Contatti</div>
-						<form action="#" class="contact_form" id="contact_form">
-							<input type="text" class="contact_input" placeholder="Nome" required="required">
-							<input type="email" class="contact_input" placeholder="E-mail" required="required">
-							<input type="text" class="contact_input" placeholder="Oggetto">
-							<textarea class="contact_input contact_textarea" placeholder="Messaggio" required="required"></textarea>
+						<form action="https://formspree.io/f/xdoydaqg" class="contact_form" id="contact_form" method="POST">
+							<input type="text" class="contact_input" placeholder="Nome" name="Name" required="required">
+							<input type="email" class="contact_input" placeholder="E-mail" name="_replyto" required="required">
+							<input type="text" class="contact_input" placeholder="Oggetto" name="_subject">
+							<textarea class="contact_input contact_textarea" placeholder="Messaggio" name="Message" required="required"></textarea>
 							<button class="contact_button">Invia Messaggio</button>
 						</form>
 					</div>
