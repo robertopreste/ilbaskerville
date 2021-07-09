@@ -252,6 +252,10 @@
     {
         font-size: 56px;
     }
+    .home_title h1
+    {
+        font-size: 56px;
+    }
 	.featured_album_image
 	{
 		width: 100%;
@@ -328,6 +332,10 @@
 	    bottom: 71px;
 	}
 	.home_title
+	{
+	    font-size: 36px;
+	}
+	.home_title h1
 	{
 	    font-size: 36px;
 	}
