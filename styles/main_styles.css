@@ -663,8 +663,9 @@ section
 .home_subtitle
 {
 	font-size: 18px;
-	font-family: 'Baskerville', sans-serif;
+	font-family: 'Avenir', sans-serif;
 	color: #FFFFFF;
+	font-weight: bold;
 }
 .home_title
 {
@@ -673,7 +674,7 @@ section
 .home_title h1
 {
 	font-size: 82px;
-	font-family: 'Avenir', sans-serif;
+	font-family: 'Baskerville', sans-serif;
 }
 .home_link
 {
