@@ -32,7 +32,9 @@
 /*********************************
 2. Body and some general stuff
 *********************************/
-
+html {
+    background-color: #000000;
+}
 *
 {
 	margin: 0;

@@ -22,6 +22,8 @@
   <link rel="stylesheet" type="text/css" href="styles/main_styles.css">
   <link rel="stylesheet" type="text/css" href="styles/contact.css">
   <link rel="stylesheet" type="text/css" href="styles/responsive.css">
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/transition.js"></script>
 </head>
 <body>
 
@@ -33,18 +35,14 @@
       <div class="logo"><a href="index.html">il Baskerville</a></div>
       <div class="log_reg">
         <ul class="d-flex flex-row align-items-start justify-content-start">
-<!--          <li><a href="gallery.html">Gallery</a></li>-->
-          <li><a href="gallery_it.html"><img src="images/uk_flag.jpg" alt="English" style="max-width: 20px;"></a></li>
+          <li><a href="gallery.html"><img src="images/uk_flag.jpg" alt="English" style="max-width: 20px;"></a></li>
         </ul>
       </div>
       <nav class="main_nav">
-<!--        <ul class="d-flex flex-row align-items-start justify-content-start">-->
-<!--          <li><a href="#home_section">Home</a></li>-->
-<!--          <li><a href="#music_section">Music</a></li>-->
-<!--          <li><a href="#live_section">Live</a></li>-->
-<!--          <li><a href="#bio_section">Bio</a></li>-->
-<!--          <li><a href="#contact_section">Contact</a></li>-->
-<!--        </ul>-->
+        <ul class="d-flex flex-row align-items-start justify-content-start">
+          <li><a href="gallery_it.html" title="Foto" class="transition">Foto</a></li>
+          <li><a href="gallery_video_it.html" title="Video" class="transition">Video</a></li>
+        </ul>
       </nav>
       <div class="hamburger ml-auto">
         <div class="d-flex flex-column align-items-end justify-content-between">
@@ -64,17 +62,13 @@
       <div class="menu_container d-flex flex-column align-items-start justify-content-center">
         <div class="menu_log_reg">
           <ul class="d-flex flex-row align-items-start justify-content-start">
-<!--            <li><a href="gallery.html">Gallery</a></li>-->
-            <li><a href="gallery_it.html"><img src="images/uk_flag.jpg" alt="English" style="max-width: 20px;"></a></li>
+            <li><a href="gallery.html"><img src="images/uk_flag.jpg" alt="English" style="max-width: 20px;"></a></li>
           </ul>
         </div>
         <nav class="menu_nav">
           <ul class="d-flex flex-column align-items-start justify-content-start">
-<!--            <li><a href="#home_section">Home</a></li>-->
-<!--            <li><a href="#music_section">Music</a></li>-->
-<!--            <li><a href="#live_section">Live</a></li>-->
-<!--            <li><a href="#bio_section">Bio</a></li>-->
-<!--            <li><a href="#contact_section">Contact</a></li>-->
+            <li><a href="gallery.html" title="Foto" class="transition">Foto</a></li>
+            <li><a href="gallery_video.html" title="Video" class="transition">Video</a></li>
           </ul>
         </nav>
       </div>
@@ -82,6 +76,8 @@
   </div>
 
   <!-- Gallery -->
+  <br><br><br>
+  <br><br><br>
 
   <div class="row">
     <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
@@ -175,7 +171,6 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
   </footer>
 </div>
 
-<script src="js/jquery-3.2.1.min.js"></script>
 <script src="styles/bootstrap-4.1.2/popper.js"></script>
 <script src="styles/bootstrap-4.1.2/bootstrap.min.js"></script>
 <script src="plugins/greensock/TweenMax.min.js"></script>
