@@ -162,7 +162,6 @@
 	.shows_list_container
 	{
 		width: 100%;
-		top: auto;
 		-webkit-transform: none;
 		-moz-transform: none;
 		-ms-transform: none;
@@ -173,7 +172,7 @@
 	}
 	.shows_list_col
 	{
-		position: absolute;
+		position: relative;
 		top: 50%;
 		left: 0;
 		-webkit-transform: translateY(-50%);
