@@ -135,7 +135,7 @@ h4{font-size: 18px;}
 h5{font-size: 14px;}
 h1, h2, h3, h4, h5, h6
 {
-	font-family: 'Baskerville', sans-serif;
+	font-family: 'Oswald', sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
 	text-shadow: rgba(0,0,0,.01) 0 0 1px;
@@ -676,7 +676,7 @@ section
 .home_title h1
 {
 	font-size: 82px;
-	font-family: 'Baskerville', sans-serif;
+	font-family: 'Oswald', sans-serif;
 }
 .home_link
 {
