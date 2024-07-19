@@ -278,7 +278,7 @@ section
 }
 .section_album_title
 {
-    margin-left: -20px;
+    /* margin-left: -20px; */
 }
 
 /*********************************
@@ -680,7 +680,7 @@ section
 }
 .home_link
 {
-	margin-top: 21px;
+	margin-top: 505px;
 }
 .home_link a
 {
